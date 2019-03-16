@@ -17,7 +17,6 @@ TestLibComponent.decorators = [
                 template: `
     <p>
       test-lib works!
-      things and stuff
     </p>
   `
             }] }
