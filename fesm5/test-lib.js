@@ -36,7 +36,7 @@ var TestLibComponent = /** @class */ (function () {
     TestLibComponent.decorators = [
         { type: Component, args: [{
                     selector: 'lib-test-lib',
-                    template: "\n    <p>\n      test-lib works!\n    </p>\n  "
+                    template: "\n    <p>\n      test-lib works!\n      things and stuff\n    </p>\n  "
                 }] }
     ];
     /** @nocollapse */

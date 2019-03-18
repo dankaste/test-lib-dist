@@ -40,7 +40,7 @@
         TestLibComponent.decorators = [
             { type: i0.Component, args: [{
                         selector: 'lib-test-lib',
-                        template: "\n    <p>\n      test-lib works!\n    </p>\n  "
+                        template: "\n    <p>\n      test-lib works!\n      things and stuff\n    </p>\n  "
                     }] }
         ];
         /** @nocollapse */
