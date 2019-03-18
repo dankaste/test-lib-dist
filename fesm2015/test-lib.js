@@ -1,4 +1,4 @@
-import { Injectable, Component, NgModule, defineInjectable } from '@angular/core';
+import { Injectable, NgModule, defineInjectable } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -20,39 +20,11 @@ TestLibService.ctorParameters = () => [];
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class TestLibComponent {
-    constructor() { }
-    /**
-     * @return {?}
-     */
-    ngOnInit() {
-    }
-}
-TestLibComponent.decorators = [
-    { type: Component, args: [{
-                selector: 'lib-test-lib',
-                template: `
-    <p>
-      test-lib works!
-      things and stuff
-    </p>
-  `
-            }] }
-];
-/** @nocollapse */
-TestLibComponent.ctorParameters = () => [];
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
 class TestLibModule {
 }
 TestLibModule.decorators = [
     { type: NgModule, args: [{
-                declarations: [TestLibComponent],
                 imports: [],
-                exports: [TestLibComponent]
             },] }
 ];
 
@@ -66,6 +38,6 @@ TestLibModule.decorators = [
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { TestLibService, TestLibComponent, TestLibModule };
+export { TestLibService, TestLibModule };
 
 //# sourceMappingURL=test-lib.js.map

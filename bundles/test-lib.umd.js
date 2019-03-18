@@ -26,40 +26,12 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
-    var TestLibComponent = /** @class */ (function () {
-        function TestLibComponent() {
-        }
-        /**
-         * @return {?}
-         */
-        TestLibComponent.prototype.ngOnInit = /**
-         * @return {?}
-         */
-            function () {
-            };
-        TestLibComponent.decorators = [
-            { type: i0.Component, args: [{
-                        selector: 'lib-test-lib',
-                        template: "\n    <p>\n      test-lib works!\n      things and stuff\n    </p>\n  "
-                    }] }
-        ];
-        /** @nocollapse */
-        TestLibComponent.ctorParameters = function () { return []; };
-        return TestLibComponent;
-    }());
-
-    /**
-     * @fileoverview added by tsickle
-     * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
-     */
     var TestLibModule = /** @class */ (function () {
         function TestLibModule() {
         }
         TestLibModule.decorators = [
             { type: i0.NgModule, args: [{
-                        declarations: [TestLibComponent],
                         imports: [],
-                        exports: [TestLibComponent]
                     },] }
         ];
         return TestLibModule;
@@ -76,7 +48,6 @@
      */
 
     exports.TestLibService = TestLibService;
-    exports.TestLibComponent = TestLibComponent;
     exports.TestLibModule = TestLibModule;
 
     Object.defineProperty(exports, '__esModule', { value: true });

@@ -1,4 +1,4 @@
-import { Injectable, Component, NgModule, defineInjectable } from '@angular/core';
+import { Injectable, NgModule, defineInjectable } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -22,40 +22,12 @@ var TestLibService = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var TestLibComponent = /** @class */ (function () {
-    function TestLibComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    TestLibComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    TestLibComponent.decorators = [
-        { type: Component, args: [{
-                    selector: 'lib-test-lib',
-                    template: "\n    <p>\n      test-lib works!\n      things and stuff\n    </p>\n  "
-                }] }
-    ];
-    /** @nocollapse */
-    TestLibComponent.ctorParameters = function () { return []; };
-    return TestLibComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
 var TestLibModule = /** @class */ (function () {
     function TestLibModule() {
     }
     TestLibModule.decorators = [
         { type: NgModule, args: [{
-                    declarations: [TestLibComponent],
                     imports: [],
-                    exports: [TestLibComponent]
                 },] }
     ];
     return TestLibModule;
@@ -71,6 +43,6 @@ var TestLibModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { TestLibService, TestLibComponent, TestLibModule };
+export { TestLibService, TestLibModule };
 
 //# sourceMappingURL=test-lib.js.map
